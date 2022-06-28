@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    border: 1px solid black;
+}
+.top {
+    background-color: #231f20;
+    color: white;
+    display: flex;
+    padding: 7px 40px;
+}
+.top1 {
+    font-size: 1rem;
+    margin-left: auto;
+
+    
+}
+.top2 {
+    font-size: 1rem;
+    padding: 4px 26px;
+}
+.navbar {
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 18px 66px;
+}
+.navbarLogo {
+}
+.navbarother {
+    display: flex;
+    margin-left: auto;
+    padding: 15px 0px;
+
+}
+.navbar1 {
+    padding: 0px 20px;
+}
+.navbar2 {
+    padding: 0px 20px;
+}
+.navbar3 {
+    padding: 0px 20px;
+
+}
+.navbar4 {
+    padding: 0px 20px;
+
+}
+.navbar5 {
+    border: 1px solid #0C7D9F;
+    padding: 0px 20px;
+    color: #0C7D9F;
+
+}
+.imgInput {
+    display: flex;
+    justify-content: center;
+}
+.img {
+   width: 50%;
+   background: url("images/Hero BG.svg");
+}
+.input {
+    background-color: #27272e;
+    color: white;
+    padding: 50px 66px;
+    width: 50%;
+    
+}
+.input input {
+
+    display: block;
+}
+.formname1 {
+    margin: 12px 0px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.formname2 {
+    margin: 12px 0px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.inputform {
+    height: 30px;
+    width: 48%;
+}
+.formname3 {
+    margin: 12px 0px;
+    height: 30px;
+    width: 100%;
+}
+
+.approachsection {
+    padding: 80px 33px;
+    text-align: center;
+}
+.headingtwo {
+    padding-bottom: 50px;
+}
+.approach {
+    display: flex;
+    align-items: center;
+}
+.grow {
+    width: 33.33%;
+    text-align: center;
+    padding: 0px 33px;
+}
+.build {
+    width: 33.33%;
+    text-align: center;
+    padding: 0px 33px;
+
+}
+.team {
+    width: 33.33%;
+    text-align: center;
+        padding: 0px 33px;
+
+}
+.ads {
+    background-color: #ECF2F6;
+}
+.adsheading {
+    text-align: center;
+    padding-top: 50px;
+}
+.partners {
+    padding: 34px 0px;
+    display: flex;
+    justify-content: center;
+}
+.partnersimage {
+    background-color: white;
+    margin: 0px 2px;
+    border-radius: 16px;
+    
+}
+.meltingpot {
+    padding: 18px;
+
+}
+.chopped {
+    padding: 27px 37px;
+}
+.fresh {
+    padding: 21px 28px;
+}
+.fuku {
+    padding: 19px 30px;
+}
+.westville {
+    padding: 16px 24px;
+}
+.andolinis {
+    padding: 22px 42px;
+}
+.dot {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.dot1 {
+    margin: 0 5px;
+}
+.dot2 {
+    margin: 0 5px;
+}
+.videodesignsection {
+
+}
+.headingthree {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.videosection {
+    display: flex;
+}
+.video {
+    width: 56%;
+    background: url("images/Hero BG.svg");
+
+}
+.playbutton {
+    text-align: center;
+    margin-top: 118px;
+}
+.videotext {
+    color: #eaeaea;
+    margin: 50px 0 60px 66px;
+}
+.videotext p {
+}
+.videodesign {
+    width: 44%;
+}
+.videodesign1 {
+    padding: 77px 66px 92px 34px;
+}
+.videodesign1text {
+}
+.videodesign1text p {
+    padding-top: 15px;
+}
+.videodesign2 {
+    background-color: #0c7d9f;
+    color: white;
+    padding: 75px 66px 90px 32px;
+
+}
+.videodesign2text {
+}
+.videodesign2text p {
+    padding-top: 17px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #27272e;
+    color: white;
+    padding: 50px 66px;
+}
+.foot {
+    height: 200px;
+}
+.foot li {
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+.foot p {
+    padding: 0.6rem 0rem;
+}
+.end {
+    text-align: center;
+    padding: 16px 0px;
+
+}
+
+.facebook{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    margin: 20px auto;
+    background:#0C7D9F;
+}
+
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0C7D9F;
+    width: 100%;
+    height: 100%;
+}
+
+.head-4{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.5rem
+
+}
+
+.tele1{
+    height: 21px;
+    width: 18px;
+}
+.tele{
+    margin: 0 .3rem;
+}
