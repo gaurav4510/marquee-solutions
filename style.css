@@ -13,14 +13,15 @@
     padding: 7px 40px;
 }
 .top1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-left: auto;
+    padding: 4px 0;
 
     
 }
 .top2 {
     font-size: 1rem;
-    padding: 4px 26px;
+    padding: 2px 20px;
 }
 .navbar {
     background-color: white;
@@ -94,7 +95,10 @@
 .formname3 {
     margin: 12px 0px;
     height: 30px;
-    width: 100%;
+    width: 99.5%;
+}
+::placeholder {
+    padding-left: 13px;
 }
 
 .approachsection {
@@ -185,7 +189,6 @@
     display: flex;
 }
 .video {
-    width: 56%;
     background: url("images/Hero BG.svg");
 
 }
@@ -194,16 +197,17 @@
     margin-top: 118px;
 }
 .videotext {
-    color: #eaeaea;
-    margin: 50px 0 60px 66px;
+    color: #ffffff;
+    background: linear-gradient(180deg, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.3) 27.99%);
+    
+    padding: 50px 256px 45px 66px;
 }
 .videotext p {
 }
 .videodesign {
-    width: 44%;
 }
 .videodesign1 {
-    padding: 77px 66px 92px 34px;
+    padding: 77px 260px 93px 34px;
 }
 .videodesign1text {
 }
@@ -213,7 +217,7 @@
 .videodesign2 {
     background-color: #0c7d9f;
     color: white;
-    padding: 75px 66px 90px 32px;
+    padding: 75px 66px 74px 32px;
 
 }
 .videodesign2text {
@@ -245,9 +249,20 @@
 
 }
 
-.facebook{
+.social {
     display: flex;
-    justify-content: space-between;
+    font-size: 1rem;
+}
+.linkedin p {
+    padding-top: 13px;
+    padding-left: 3px;
+
+}
+.facebook p {
+    padding-left: 12px;
+}
+.facebook img {
+    padding-left: 3px;
 }
 
 .btn{
@@ -284,3 +299,172 @@
 .tele{
     margin: 0 .3rem;
 }
+@media (max-width: 768px) {
+    
+    .navbarother {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;        
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbarLogo {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .imgInput {
+        flex-direction: column;
+        width: 100%;
+    }
+    .img {
+        height: 454px;
+        width: 100%;
+    }
+    .input {
+        width: auto;
+    }
+    .approach {
+        flex-direction: column;
+        
+    }
+    .grow {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .build {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+
+    
+    }
+    .team {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .partners {
+        overflow: hidden;
+    }
+    .video {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .videosection {
+        flex-direction: column;
+    }
+    .footer {
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    .mainlogo {
+        margin-bottom: 60px;
+    }
+    .foot2 {
+        margin-bottom: 60px;
+    }
+    .foot1 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1019px) {
+    .partners {
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 970px) {
+    
+    .navbar5 {
+        padding: 0 5px;
+    }
+    .video {
+        background-size: cover;
+    }
+    .videodesign1 {
+        padding-right: 60px;
+    }
+} 
+@media (max-width: 446px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top1 {
+        margin-left: 0;
+    }
+    .navbarLogo img {
+        width: 167px;
+    }
+    .navbar {
+        padding: 18px 21px;
+    }
+    .h2 {
+        font-size: 0.5rem;
+    }
+    .input h1 {
+        font-size: 1rem;
+    }
+    .adsheading {
+        font-size: 1rem;
+    }
+    .headingthree h2 {
+        font-size: 1rem;
+    }
+    .videotext h2 {
+        font-size: 1rem;
+    }
+    .videodesign h2 {
+        font-size: 1rem;
+    }
+    .btn {
+        width: 80px;
+        height: 40px;
+    }
+    .head-4 {
+        font-size: 0.7rem;
+    }
+    .playbutton img {
+        width: 125px;
+    }
+} 
+@media (max-width: 210px) {
+    .navbarLogo img {
+        width: 95px;
+    }
+    .input {
+        padding: 50px 9px;
+    }
+    .adsheading {
+        font-size: 0.9rem;
+    }
+    .headingthree h2 {
+        font-size: 0.9rem;
+    }
+    .videotext h2 {
+        font-size: 0.9rem;
+    }
+    .videodesign h2 {
+        font-size: 0.9rem;
+    }
+    .headingtwo h2 {
+        font-size: 1rem;
+    }
+    .mainlogo img {
+        width: 85px;
+    }
+    .top2 {
+        font-size: 0.6rem;
+    }
+    .top1 {
+        font-size: 0.4rem;
+    }
+}  
+    
