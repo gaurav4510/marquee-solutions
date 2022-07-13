@@ -34,28 +34,42 @@
 .navbarother {
     display: flex;
     margin-left: auto;
-    padding: 15px 0px;
+    padding: 5px 0px;
 
 }
 .navbar1 {
-    padding: 0px 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #231f20;
+    
 }
 .navbar2 {
-    padding: 0px 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #231f20;
 }
 .navbar3 {
-    padding: 0px 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #231f20;
 
 }
 .navbar4 {
-    padding: 0px 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #231f20;
 
 }
 .navbar5 {
     border: 1px solid #0C7D9F;
     padding: 0px 20px;
     color: #0C7D9F;
+    font-size: 18px;
+    color: #231f20;
 
+}
+.contactus {
+    padding: 9px 15px;
 }
 .imgInput {
     display: flex;
@@ -64,6 +78,7 @@
 .img {
    width: 50%;
    background: url("images/Hero BG.svg");
+
 }
 .input {
     background-color: #27272e;
@@ -76,10 +91,19 @@
 
     display: block;
 }
+.input h1 {
+    font-size: 45px;
+}
+.form {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+}
 .formname1 {
     margin: 12px 0px;
     justify-content: space-between;
     display: flex;
+    
     
 }
 .formname2 {
@@ -99,35 +123,66 @@
 }
 ::placeholder {
     padding-left: 13px;
+    font-size: 16px;
 }
-
+.formname1:focus::-webkit-input-placeholder {
+    visibility:hidden;
+}
 .approachsection {
-    padding: 80px 33px;
+    padding: 80px 30px;
     text-align: center;
 }
 .headingtwo {
     padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #231f20
 }
 .approach {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+}
+.approach1 {
+    padding: 0 15px;
 }
 .grow {
-    width: 33.33%;
     text-align: center;
-    padding: 0px 33px;
+}
+.grow h6 {
+    padding-top: 17px;
+}
+.line1 {
+    border-left: 1px solid green;
+}
+.line2 {
+    border-left: 1px solid green;
 }
 .build {
-    width: 33.33%;
     text-align: center;
-    padding: 0px 33px;
 
 }
+.build h6 {
+    padding-top: 17px;
+}
 .team {
-    width: 33.33%;
     text-align: center;
-        padding: 0px 33px;
 
+}
+.team h6 {
+    padding-top: 40px;
+}
+.approach1 h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.approach1 p {
+    font-size: 20px;
+    color: #231f20;
+}
+.approach1 h6 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #231f20;
 }
 .ads {
     background-color: #ECF2F6;
@@ -135,6 +190,9 @@
 .adsheading {
     text-align: center;
     padding-top: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #231f20;
 }
 .partners {
     padding: 34px 0px;
@@ -178,18 +236,25 @@
     margin: 0 5px;
 }
 .videodesignsection {
-
+    width: 100%;
 }
 .headingthree {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 60px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #231f20;
 }
 .videosection {
     display: flex;
+    justify-content: center;
 }
 .video {
-    background: url("images/Hero BG.svg");
+    background: url("images/image 61.svg");
+    width: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
 
 }
 .playbutton {
@@ -200,16 +265,30 @@
     color: #ffffff;
     background: linear-gradient(180deg, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.3) 27.99%);
     
-    padding: 50px 256px 45px 66px;
+    padding: 50px 106px 46px 66px;
 }
-.videotext p {
+.videotext h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
 }
 .videodesign {
+    width: 50%;
 }
 .videodesign1 {
-    padding: 77px 260px 93px 34px;
 }
 .videodesign1text {
+    padding: 77px 66px 92px 34px;
+
+}
+.videodesign2text {
+    padding: 75px 196px 95px 32px;
+
+}
+.videodesign1text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #231f20;
 }
 .videodesign1text p {
     padding-top: 15px;
@@ -217,10 +296,12 @@
 .videodesign2 {
     background-color: #0c7d9f;
     color: white;
-    padding: 75px 66px 74px 32px;
 
 }
-.videodesign2text {
+.videodesign2text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
 }
 .videodesign2text p {
     padding-top: 17px;
@@ -286,9 +367,9 @@
 }
 
 .head-4{
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
-    font-size: 1.5rem
+    font-size: 18px;
 
 }
 
@@ -354,9 +435,13 @@
     .video {
         background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
     }
     .videosection {
         flex-direction: column;
+    }
+    .videodesign {
+        width: 100%;
     }
     .footer {
         margin: auto;
@@ -466,5 +551,21 @@
     .top1 {
         font-size: 0.4rem;
     }
-}  
+    .videodesign1 {
+        padding-right: 111px;
+        padding-left: 21px;
+    }
+    .videotext {
+        padding-right: 96px;
+        padding-left: 25px;
+    }
+} 
+@media (min-width: 210px) and (max-width: 338px) {
+    .videotext {
+        padding-right: 138px;
+    }
+    .videodesign1 {
+        padding-right: 84px;
+    }
+}
     
